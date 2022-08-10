@@ -26,3 +26,25 @@ export const HomeBodyContainer = styled.div
       align-items: stretch;
       align-content: start;
     `;
+
+export const HomeButtonsContainer = styled.div
+    `
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: start
+    `;
+
+export const HomeButtons = styled.button
+    `
+      flex: 0 0 auto;
+      margin: 10px;
+      color: #000;
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1.2rem;
+    `;
